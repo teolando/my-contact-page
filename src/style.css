@@ -201,6 +201,7 @@ span {
     
     .section {
         width: 90%;
+        margin-top: 10px;
     }
 
     p {
@@ -222,5 +223,8 @@ span {
     .perfil{
         width: 140px;
         height: 140px;
+    }
+    .text{
+        margin-top: 10px;
     }
   }

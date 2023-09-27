@@ -120,9 +120,6 @@ span {
     .main{
         padding: 0;
     }
-    .icons{
-        width: 100%;
-    }
 
     .menu {
         width: 30%;
@@ -146,10 +143,6 @@ span {
 
     span{
         font-size: 20px;
-    }
-
-    .icons{
-        width: 100%;
     }
 
     .menu {
@@ -182,9 +175,6 @@ span {
         font-size: 18px;
     }
 
-    .icons{
-        width: 100%;
-    }
 
     .button{
         font-size: 14px;

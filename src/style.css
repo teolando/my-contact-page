@@ -14,7 +14,7 @@
 }
 
 html {
-    height: 100vh;
+    height: 100%;
 }
 .main{
     width: 100%;
@@ -202,8 +202,9 @@ span {
     .menu {
         width: 40%;
         height: 11%;
+
     }
     .main{
-        justify-content: none;
+        flex-wrap: wrap;
     }
   }

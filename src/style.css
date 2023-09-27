@@ -203,4 +203,7 @@ span {
         width: 40%;
         height: 11%;
     }
+    .main{
+        justify-content: start;
+    }
   }

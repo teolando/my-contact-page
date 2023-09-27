@@ -204,6 +204,6 @@ span {
         height: 11%;
     }
     .main{
-        justify-content: start;
+        justify-content: none;
     }
   }

@@ -194,7 +194,7 @@ span {
 
   }
 
-  @media screen and (min-width: 200px) and (max-width: 500px){
+  @media screen and (min-width: 200px) and (max-width: 600px){
     .main{
         padding: 0;
     }
@@ -206,6 +206,7 @@ span {
 
     p {
         font-size: 12px;
+        margin-top: 8px;
     }
 
     span{
@@ -219,6 +220,7 @@ span {
     .button{
         font-size: 11px;
         width: 70%;
+        margin-top: 8px;
     }
     .perfil{
         width: 140px;

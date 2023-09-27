@@ -13,6 +13,9 @@
     height: 200px;
 }
 
+html {
+    height: 100vh;
+}
 .main{
     width: 100%;
     height: 100vh;
@@ -20,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0 200px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 body {
@@ -73,7 +76,7 @@ li {
     border-radius: 50px;
     justify-content: center;
     width: 50%;
-    height: 60%;
+    height: 65%;
 }
 
 p{

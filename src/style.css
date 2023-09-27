@@ -42,7 +42,7 @@ body {
 .menu {
     background-color: #212121;
     border-radius: 30px;
-    width: 13%;
+    width: 20%;
     height: 8%;
     display: flex;
     justify-content: space-around;
@@ -68,7 +68,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: #212121;
     border-radius: 50px;
     justify-content: center;
@@ -104,8 +104,19 @@ span {
     margin-top: 20px;
 }
 
+  @media screen and (min-width: 936px) and (max-width: 1400px) {
 
-@media screen and (max-width: 600px) {
+    .main{
+        padding: 0;
+    }
+    .menu{
+        width: 20%;
+    }
+
+  }
+
+
+  @media screen and (min-width: 600px) and (max-width: 936px){
     .main{
         padding: 0;
     }
@@ -123,69 +134,7 @@ span {
     }
 
     .menu{
-        width: 40%;
-    }
-  }
-
-@media screen and (max-width: 1400px) {
-    .main{
-        padding: 0;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    
-        .main{
-            padding: 0;
-        }
-        
-        .section {
-            width: 70%;
-        }
-    
-        p {
-            font-size: 17px;
-        }
-    
-        span{
-            font-size: 22px;
-        }
-    
-        .menu{
-            width: 30%;
-        }
-  }
-
-  @media screen and (max-width: 1200px) {
-    .main{
-        padding: 0;
-    }
-    .menu{
         width: 30%;
-    }
-
-  }
-
-
-  @media screen and (max-width: 550px) {
-    .main{
-        padding: 0;
-    }
-    
-    .section {
-        width: 70%;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    span{
-        font-size: 22px;
-    }
-
-    .menu{
-        width: 40%;
     }
 
     .button{
@@ -202,10 +151,11 @@ span {
     .section {
         width: 90%;
         margin-top: 10px;
+        height: 47%;
     }
 
     p {
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 8px;
     }
 

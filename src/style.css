@@ -113,12 +113,16 @@ body{
     }
 
     .icons {
-        width: 250px;
+        width: 200px;
         height: 70px;
     }
 
     .fa-brands {
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .text-chanel, .rights {
+        font-size: 18px;
     }
 }
 
@@ -128,13 +132,14 @@ body{
     }
     
     .icons {
-        width: 250px;
+        width: 240px;
         height: 90px;
     }
 
     .fa-brands {
         font-size: 55px;
     }
+
 }
 
 @media only screen and (min-width: 768px) {

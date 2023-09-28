@@ -7,226 +7,136 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.perfil {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+html {
+    height: 100vh;
+    background-color: #323232;
 }
 
-.main{
-    width: 100%;
+body{
+    height: 100vh;
+}
+
+.main {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 200px;
     justify-content: space-around;
 }
 
-body {
-    background: #323232;
-    background-image: url('./images/bg_2.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-}
-
-.menu {
-    background-color: #212121;
-    border-radius: 30px;
-    width: 13%;
-    height: 8%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.menu > ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-}
-
-li {
-    list-style: none;
-    color: white;
-    text-align: center;
-}
-
-.section{
+.information {
+    width: 830px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    gap: 30px;
     background-color: #212121;
     border-radius: 50px;
-    justify-content: center;
-    width: 50%;
-    height: 60%;
+    text-align: center;
+    color: white;
 }
 
-p{
-    font-size: 22px;
-    color: white;
-    width: 70%;
-    text-align: center;
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     margin-top: 30px;
 }
 
-span {
-    color: #14FFEC;
+.name {
+    color: #0D7377;
+    font-size: 24px;
 }
 
-.text {
-    font-size: 18px;
-}
-
-.button{
-    width: 60%;
-    height: 60px;
-    background-color: #0D7377;
-    color: white;
+.button {
+    height: 70px;
+    width: 300px;
+    line-height: 70px;
     text-decoration: none;
+    color: white;
     text-align: center;
-    line-height: 60px;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #0D7377;
+    margin-bottom: 30px;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
 
-@media screen and (max-width: 600px) {
-    .main{
-        padding: 0;
-    }
-    
-    .section {
-        width: 70%;
-    }
+.text-chanel, .rights {
+    color: #ffffff;
+    font-size: 24px;
+}
 
-    p {
-        font-size: 16px;
-    }
+.icons {
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
 
-    span{
-        font-size: 22px;
-    }
+.icons > a {
+    list-style: none;
+}
 
-    .menu{
-        width: 40%;
-    }
-  }
+.fa-brands {
+    color: #14FFEC;font-size: 70px;
+}
 
-@media screen and (max-width: 1400px) {
-    .main{
-        padding: 0;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    
-        .main{
-            padding: 0;
-        }
-        
-        .section {
-            width: 70%;
-        }
-    
-        p {
-            font-size: 17px;
-        }
-    
-        span{
-            font-size: 22px;
-        }
-    
-        .menu{
-            width: 30%;
-        }
-  }
-
-  @media screen and (max-width: 1200px) {
-    .main{
-        padding: 0;
-    }
-    .menu{
-        width: 30%;
+@media only screen and (max-width: 600px) {
+    .information {
+        width: 350px;
     }
 
-  }
-
-
-  @media screen and (max-width: 550px) {
-    .main{
-        padding: 0;
-    }
-    
-    .section {
-        width: 70%;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    span{
-        font-size: 22px;
-    }
-
-    .menu{
-        width: 40%;
-    }
-
-    .button{
-        font-size: 16px;
-    }
-
-  }
-
-  @media screen and (min-width: 200px) and (max-width: 600px){
-    .main{
-        padding: 0;
-    }
-    
-    .section {
-        width: 90%;
-        margin-top: 10px;
-    }
-
-    p {
-        font-size: 12px;
-        margin-top: 8px;
-    }
-
-    span{
-        font-size: 22px;
-    }
-
-    .menu{
-        width: 40%;
-    }
-
-    .button{
-        font-size: 11px;
-        width: 70%;
-        margin-top: 8px;
-    }
-    .perfil{
+    .profile {
         width: 140px;
         height: 140px;
     }
-    .text{
-        margin-top: 10px;
+
+    .button {
+        width: 240px;
+        height: 60px;
+        line-height: 60px;
     }
-  }
+
+    .about {
+        padding: 0px 20px;
+    }
+
+    .icons {
+        width: 250px;
+        height: 70px;
+    }
+
+    .fa-brands {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .information {
+        width: 500px;
+    }
+    
+    .icons {
+        width: 250px;
+        height: 90px;
+    }
+
+    .fa-brands {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
